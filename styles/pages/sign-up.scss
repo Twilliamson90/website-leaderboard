@@ -1,0 +1,7 @@
+@import "../variables";
+
+.content {
+    .c-list-medium-space li:not(:last-child) {
+      margin-bottom: 1.5em;
+    }
+}

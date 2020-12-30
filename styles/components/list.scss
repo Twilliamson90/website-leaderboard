@@ -1,0 +1,39 @@
+.content {
+  .c-list-checks {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .c-list-checks li {
+    padding-left: 1.6em;
+    position: relative;
+  }
+
+  .c-list-checks li:before {
+    background-image: url(../../img/check-circle-solid.svg);
+    background-size: cover;
+    background-position: center;
+    content: '';
+    color: $green;
+    height: 1em;
+    left: 0;
+    position: absolute;
+    top: 0.75em;
+    transform: translateY(-50%);
+    width: 1em;
+  }
+
+  .c-list-checks.green li:before {
+    background-image: url(../../img/check-circle-solid-green.svg);
+  }
+  
+  .c-list-checks.cyan li:before {
+    background-image: url(../../img/check-circle-solid-cyan.svg);
+  }
+  
+  .c-list-checks.purple li:before {
+    background-image: url(../../img/check-circle-solid-purple.svg);
+  }
+
+}

@@ -1,0 +1,18 @@
+@import "../variables";
+
+.u-inverse,
+.u-inverse h1,
+.u-inverse h2,
+.u-inverse h3,
+.u-inverse h4,
+.u-inverse p {
+  color: #ffffff;
+}
+
+.has-background-blue-dark {
+  background-color: $blue-dark;
+}
+
+.has-background-blue-dashboard {
+  background-color: $blue-dashboard;
+}

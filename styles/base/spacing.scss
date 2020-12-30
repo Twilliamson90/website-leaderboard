@@ -1,0 +1,20 @@
+$spaceamounts: (1, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100, 125); // pixel amounts needed
+$sides: (top, bottom, left, right);
+
+@each $space in $spaceamounts {
+  @each $side in $sides {
+    .u-margin-#{$side}-#{$space} {
+      margin-#{$side}: #{$space}px !important;
+    }
+
+    .u-padding-#{$side}-#{$space} {
+      padding-#{$side}: #{$space}px !important;
+    }
+  }
+}
+
+// TODO: Do this in a more sustainable manner.
+
+.u-margin-top-negative-6 {
+  margin-top: -6rem;
+}

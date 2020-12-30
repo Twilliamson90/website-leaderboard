@@ -1,0 +1,17 @@
+.tabs {
+  overflow: auto;
+}
+
+.tabs a:focus {
+  border-color: $border;
+  background-color: $background;
+  text-decoration: underline;
+}
+
+.tabs-white ul {
+  background-color: #fff;
+}
+
+.tabs-space {
+  padding: 25px 1px 35px;
+}

@@ -1,0 +1,51 @@
+.c-table-market-container {
+  @include mobile {
+    overflow-x: scroll;
+  }
+}
+
+.c-table-market th,
+.c-table-market td {
+  padding: 1.5em 0.75em;
+}
+
+.c-table-icon {
+  width: 24px;
+}
+
+.c-table td {
+  word-break: break-all;
+}
+
+.c-table tr td:first-of-type {
+  width: 740px;
+}
+
+.c-table-sortable th button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 5px 35px 5px 15px;
+  position: relative;
+}
+
+.c-table-sortable th button::after,
+.c-table-sortable th button.ascending::after,
+.c-table-sortable th button.descending::after {
+  color: #999;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  bottom: 0;
+  margin: auto;
+}
+
+.c-table-sortable th button.ascending::after {
+  content: "\25B2";
+}
+
+.c-table-sortable th button.descending::after {
+  content: "\25BC";
+}

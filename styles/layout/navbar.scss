@@ -1,0 +1,29 @@
+@import "../variables";
+
+.c-navbar-logo {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-right: 2em;
+}
+
+.c-navbar-list {
+  display: flex;
+  flex-direction: column;
+
+  @include desktop {
+    flex-direction: row;
+  }
+}
+
+
+.c-navbar-item {
+  font-size: 1.2em;
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  a {
+    color: $grey-dark;
+    display: block;
+    padding: 15px 20px;
+  }
+}

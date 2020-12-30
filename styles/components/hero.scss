@@ -1,0 +1,36 @@
+.c-hero-container {
+  position: relative;
+}
+
+.c-hero-container--large {
+  padding: 70px 0;
+}
+
+.c-hero-container--blue {
+  background: $blue-dark linear-gradient(0deg,rgba(0,7,88,.8),rgba(8,0,103,1));
+  color: $white;
+  padding-bottom: 150px;
+}
+
+.c-hero-container-bg {
+  color: $white-ter;
+  position: absolute;
+  height: 600px;
+  width: 100%;
+}
+
+.c-bg-wave {
+  bottom: -7px;
+  position: absolute;
+  width: 100%;
+
+  &.is-rotated-180 {
+    bottom: auto;
+    top: -7px;
+    transform: rotate(180deg);
+  }
+
+  svg {
+    fill: currentColor;
+  }
+}

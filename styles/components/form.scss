@@ -1,0 +1,16 @@
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 28px #fff inset !important;
+}
+
+.c-input-icon-align {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 1rem;
+}
