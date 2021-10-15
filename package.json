@@ -8,10 +8,14 @@
     "start": "next start -H 0.0.0.0 -p ${PORT:-8080}"
   },
   "dependencies": {
-    "bulma": "^0.9.1",
+    "bulma": "^0.9.3",
     "next": "10.0.4",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "sass": "^1.32.0"
+    "sass": "^1.43.2"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^2.2.17"
   }
 }

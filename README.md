@@ -16,4 +16,4 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ## Development Server
 
-[https://website-leaderboard-3a439.ondigitalocean.app/](https://website-leaderboard-3a439.ondigitalocean.app/)
+[https://website-leaderboard-ezk8q.ondigitalocean.app/](https://website-leaderboard-ezk8q.ondigitalocean.app/)
