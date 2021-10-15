@@ -17,7 +17,7 @@ export default function Home() {
                 <div className="content is-medium">
                   <h1 className="title">Website Leaderboard</h1>
                   <p>
-                    Find the highest scoring websites for each category.
+                    Hello world.
                   </p>
                   <Link
                     href="/sign-up"
