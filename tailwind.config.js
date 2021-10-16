@@ -1,6 +1,6 @@
 module.exports = {
   purge: [
-    './styles/tailwind.css'
+    './pages/*.js'
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {

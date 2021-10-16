@@ -83,7 +83,7 @@ export default function Home() {
             <h1
               className="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight"
             >
-              Main Hero Message to sell yourself!
+              Where does your site rank?
             </h1>
             <p
               className="leading-normal text-gray-800 text-base md:text-xl lg:text-2xl mb-8"
